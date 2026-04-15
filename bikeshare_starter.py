@@ -120,6 +120,7 @@ def user_stats(df):
 
 def main():
     while True:
+        # Get the three filters and run all the functionalities.
         city, month, day = get_filters()
         df = load_data(city, month, day)
 
